@@ -14,3 +14,7 @@ Users will be able to create and modify recipes with ingredients, cooking time, 
 - Create and manage virtual environments 
 - Use pip to install and manage packages
 
+**Exercise 2: Data Types In Python**
+- Use data types and methods to execute Python commands that store recipes containing their own internal data 
+- Enter a number of these recipes into another linear data structure
+
