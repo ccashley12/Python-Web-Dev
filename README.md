@@ -18,3 +18,11 @@ Users will be able to create and modify recipes with ingredients, cooking time, 
 - Use data types and methods to execute Python commands that store recipes containing their own internal data 
 - Enter a number of these recipes into another linear data structure
 
+**Exercise 3: Functions and Other Operations in Python**
+- Create your first script on a .py script file
+- Build a script that uses if-elif-else statements, for loops, and functions to take recipes from the user then display them
+
+**Exercise 4: File Handling in Python**
+- Create a Python script that takes recipes from the user and writes the data in a binary file
+- Create another script that reads the binary file and lists out the available ingredients. The user chooses an ingredient and the script displays all recipes which contain it
+- Use Python’s exception handling features to handle common errors
