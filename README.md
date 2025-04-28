@@ -26,3 +26,6 @@ Users will be able to create and modify recipes with ingredients, cooking time, 
 - Create a Python script that takes recipes from the user and writes the data in a binary file
 - Create another script that reads the binary file and lists out the available ingredients. The user chooses an ingredient and the script displays all recipes which contain it
 - Use Python’s exception handling features to handle common errors
+
+**Exercise 5: Object-Oriented Programming in Python**
+- Build a custom class for your recipes, which contains its own data attributes for name, ingredients, cooking time, and difficulty, as well as other custom methods to interact with this data
