@@ -1,0 +1,47 @@
+The user will be able to search for recipes by name, ingredients
+(what recipes they are used in), and recipes by difficulty. Cooking time will not be 
+a search term beacause I think users would be less likely to search for recipes by that attribute.
+
+----------------------------------------------------------------------------------------------------
+
+Search criterion:                                   Output format:
+{recipe.name}                                       name, ingredients, cooking_time, difficulty
+"easy", "medium", "intermediate", "hard"            name, ingredients, cooking_time
+{recipe.ingredients}                                name
+
+Data Analysis:
+Bar graph:
+Display recipe name (x) and cooking time (y)
+
+Pie chart:
+Display difficulty of all recipes by their total percentage
+
+Line graph:
+Display recipe name (x) and number of ingredients (y)
+
+---------------------------------------------------------------------------------------------------
+
+Execution flow:
+      User starts on homepage
+                |
+           User logs in
+                |
+  User is redirected to collection
+                |
+       User selects a recipe
+                |
+ User is redirected to details page
+                |
+    User returns to collection
+                |
+   User navigates to search URL
+                |
+    User searches all recipes
+                |
+   User searches recipes by name
+                |
+User searches recipes by cooking time
+                |
+ User searches recipes by difficulty
+                |
+          User logs out
